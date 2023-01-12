@@ -7,13 +7,13 @@ import os
 class Config(object):
     API_ID = int(os.getenv("API_ID", "27397958"))
     API_HASH = os.getenv("API_HASH", "6c504c6694b21aff159b55b37568fe2d")
-    BOT_TOKEN = os.getenv("BOT_TOKEN", "5935397691:AAEEWeyu_h4v1R8eM7fEEkn_q4QsMK8YlDI")
+    BOT_TOKEN = os.getenv("BOT_TOKEN", "5934311902:AAFBlnqqgjeEN5aQ6gcG7BYf1HWsshaFzP4")
     BOT_SESSION_NAME = os.getenv("BOT_SESSION_NAME", "Doraemon")
     USER_SESSION_STRING = os.getenv("USER_SESSION_STRING", "1BVtsOKsBu0nyMjZIoURuBjs4qUEEsKs4Hg54Pk8T63yMyrb2FEQYE_BIePRREHMs97ydADHm4w2UUWhW68B6EmQxIT9uqQnbQjfgBw4eIdWBVD75lt7Ju1APlSBSR4eeZdvPdQM5d5Nntd0QYYEx1iHGiRC7YQRbUuWdu9E6nDse8MoafV6bMqXBCjllF3IqYFafgD7sWX4b09-jTZ_RiIq-RZOu-yGgmrNL9GQM-cKHx7OG2B4abFcG2kMoo1yMgrGdAnJhDuNXgkvlnVgQquOvEpK8geAi30QSEDEoN-WyCgAFrDTW0AGprpMXCwbMHelQLmEo5FUhR26O4wgsbkvThK6Q8J4=")
     CHANNEL_ID = int(os.getenv("CHANNEL_ID", "-1001800490260")) 
-    BOT_USERNAME = os.getenv("BOT_USERNAME", "Doraemon_movies_search_bot")
-    BOT_OWNER = int(os.getenv("BOT_OWNER", "5886772061"))
-#    OWNER_USERNAME = os.getenv("OWNER_USERNAME", "filmy_boyy")
+    BOT_USERNAME = os.getenv("BOT_USERNAME", "Doraemon_movi_bot")
+    BOT_OWNER = int(os.getenv("BOT_OWNER", "2128268332"))
+#    OWNER_USERNAME = os.getenv("OWNER_USERNAME", "dmin_tgg")
     BACKUP_CHANNEL = os.getenv("BACKUP_CHANNEL", "terabox_mdisk_backup")
 #    GROUP_USERNAME = os.getenv("terabox_mdisk_backup")
     START_MSG = os.getenv("START_MSG", """**Hᴇʏ {}, 
