@@ -13,7 +13,7 @@ class Config(object):
     CHANNEL_ID = int(os.getenv("CHANNEL_ID", "-1001800490260")) 
     BOT_USERNAME = os.getenv("BOT_USERNAME", "Doraemon_movi_bot")
     BOT_OWNER = int(os.getenv("BOT_OWNER", "2128268332"))
-#    OWNER_USERNAME = os.getenv("OWNER_USERNAME", "dmin_tgg")
+#    OWNER_USERNAME = os.getenv("OWNER_USERNAME", "filmy_boyy")
     BACKUP_CHANNEL = os.getenv("BACKUP_CHANNEL", "terabox_mdisk_backup")
 #    GROUP_USERNAME = os.getenv("terabox_mdisk_backup")
     START_MSG = os.getenv("START_MSG", """**Hᴇʏ {}, 
